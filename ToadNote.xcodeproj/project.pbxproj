@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8DD470D92CF7388E00085EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD470BF2CF7388D00085EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD470C62CF7388D00085EFE;
+			remoteInfo = ToadNote;
+		};
+		8DD470E32CF7388E00085EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD470BF2CF7388D00085EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD470C62CF7388D00085EFE;
+			remoteInfo = ToadNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DD470C72CF7388D00085EFE /* ToadNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToadNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD470D82CF7388E00085EFE /* ToadNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToadNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD470E22CF7388E00085EFE /* ToadNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToadNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8DD470C92CF7388D00085EFE /* ToadNote */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ToadNote;
+			sourceTree = "<group>";
+		};
+		8DD470DB2CF7388E00085EFE /* ToadNoteTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ToadNoteTests;
+			sourceTree = "<group>";
+		};
+		8DD470E52CF7388E00085EFE /* ToadNoteUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ToadNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD470C42CF7388D00085EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD470D52CF7388E00085EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD470DF2CF7388E00085EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DD470BE2CF7388D00085EFE = {
+			isa = PBXGroup;
+			children = (
+				8DD470C92CF7388D00085EFE /* ToadNote */,
+				8DD470DB2CF7388E00085EFE /* ToadNoteTests */,
+				8DD470E52CF7388E00085EFE /* ToadNoteUITests */,
+				8DD470C82CF7388D00085EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DD470C82CF7388D00085EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD470C72CF7388D00085EFE /* ToadNote.app */,
+				8DD470D82CF7388E00085EFE /* ToadNoteTests.xctest */,
+				8DD470E22CF7388E00085EFE /* ToadNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD470C62CF7388D00085EFE /* ToadNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD470EC2CF7388E00085EFE /* Build configuration list for PBXNativeTarget "ToadNote" */;
+			buildPhases = (
+				8DD470C32CF7388D00085EFE /* Sources */,
+				8DD470C42CF7388D00085EFE /* Frameworks */,
+				8DD470C52CF7388D00085EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8DD470C92CF7388D00085EFE /* ToadNote */,
+			);
+			name = ToadNote;
+			packageProductDependencies = (
+			);
+			productName = ToadNote;
+			productReference = 8DD470C72CF7388D00085EFE /* ToadNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DD470D72CF7388E00085EFE /* ToadNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD470EF2CF7388E00085EFE /* Build configuration list for PBXNativeTarget "ToadNoteTests" */;
+			buildPhases = (
+				8DD470D42CF7388E00085EFE /* Sources */,
+				8DD470D52CF7388E00085EFE /* Frameworks */,
+				8DD470D62CF7388E00085EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DD470DA2CF7388E00085EFE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8DD470DB2CF7388E00085EFE /* ToadNoteTests */,
+			);
+			name = ToadNoteTests;
+			packageProductDependencies = (
+			);
+			productName = ToadNoteTests;
+			productReference = 8DD470D82CF7388E00085EFE /* ToadNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DD470E12CF7388E00085EFE /* ToadNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD470F22CF7388E00085EFE /* Build configuration list for PBXNativeTarget "ToadNoteUITests" */;
+			buildPhases = (
+				8DD470DE2CF7388E00085EFE /* Sources */,
+				8DD470DF2CF7388E00085EFE /* Frameworks */,
+				8DD470E02CF7388E00085EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DD470E42CF7388E00085EFE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8DD470E52CF7388E00085EFE /* ToadNoteUITests */,
+			);
+			name = ToadNoteUITests;
+			packageProductDependencies = (
+			);
+			productName = ToadNoteUITests;
+			productReference = 8DD470E22CF7388E00085EFE /* ToadNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DD470BF2CF7388D00085EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8DD470C62CF7388D00085EFE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8DD470D72CF7388E00085EFE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8DD470C62CF7388D00085EFE;
+					};
+					8DD470E12CF7388E00085EFE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8DD470C62CF7388D00085EFE;
+					};
+				};
+			};
+			buildConfigurationList = 8DD470C22CF7388D00085EFE /* Build configuration list for PBXProject "ToadNote" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DD470BE2CF7388D00085EFE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8DD470C82CF7388D00085EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD470C62CF7388D00085EFE /* ToadNote */,
+				8DD470D72CF7388E00085EFE /* ToadNoteTests */,
+				8DD470E12CF7388E00085EFE /* ToadNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DD470C52CF7388D00085EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD470D62CF7388E00085EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD470E02CF7388E00085EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD470C32CF7388D00085EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD470D42CF7388E00085EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD470DE2CF7388E00085EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DD470DA2CF7388E00085EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD470C62CF7388D00085EFE /* ToadNote */;
+			targetProxy = 8DD470D92CF7388E00085EFE /* PBXContainerItemProxy */;
+		};
+		8DD470E42CF7388E00085EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD470C62CF7388D00085EFE /* ToadNote */;
+			targetProxy = 8DD470E32CF7388E00085EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DD470EA2CF7388E00085EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DD470EB2CF7388E00085EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8DD470ED2CF7388E00085EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToadNote/ToadNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToadNote/Preview Content\"";
+				DEVELOPMENT_TEAM = JAC9BBYDTX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toadnote.mac.ToadNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8DD470EE2CF7388E00085EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToadNote/ToadNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToadNote/Preview Content\"";
+				DEVELOPMENT_TEAM = JAC9BBYDTX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toadnote.mac.ToadNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8DD470F02CF7388E00085EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAC9BBYDTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toadnote.mac.ToadNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToadNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToadNote";
+			};
+			name = Debug;
+		};
+		8DD470F12CF7388E00085EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAC9BBYDTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toadnote.mac.ToadNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToadNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToadNote";
+			};
+			name = Release;
+		};
+		8DD470F32CF7388E00085EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAC9BBYDTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toadnote.mac.ToadNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ToadNote;
+			};
+			name = Debug;
+		};
+		8DD470F42CF7388E00085EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAC9BBYDTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toadnote.mac.ToadNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ToadNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DD470C22CF7388D00085EFE /* Build configuration list for PBXProject "ToadNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD470EA2CF7388E00085EFE /* Debug */,
+				8DD470EB2CF7388E00085EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD470EC2CF7388E00085EFE /* Build configuration list for PBXNativeTarget "ToadNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD470ED2CF7388E00085EFE /* Debug */,
+				8DD470EE2CF7388E00085EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD470EF2CF7388E00085EFE /* Build configuration list for PBXNativeTarget "ToadNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD470F02CF7388E00085EFE /* Debug */,
+				8DD470F12CF7388E00085EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD470F22CF7388E00085EFE /* Build configuration list for PBXNativeTarget "ToadNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD470F32CF7388E00085EFE /* Debug */,
+				8DD470F42CF7388E00085EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DD470BF2CF7388D00085EFE /* Project object */;
+}

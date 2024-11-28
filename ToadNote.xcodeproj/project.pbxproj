@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8DD471C82CF8ABF000085EFE /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 8DD471C72CF8ABF000085EFE /* SQLite */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8DD470D92CF7388E00085EFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,30 @@
 		8DD470E22CF7388E00085EFE /* ToadNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToadNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8DD4719A2CF894DA00085EFE /* Exceptions for "ToadNote" folder in "ToadNoteTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ToadNote.xcdatamodeld,
+			);
+			target = 8DD470D72CF7388E00085EFE /* ToadNoteTests */;
+		};
+		8DD4719B2CF894DA00085EFE /* Exceptions for "ToadNote" folder in "ToadNoteUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ToadNote.xcdatamodeld,
+			);
+			target = 8DD470E12CF7388E00085EFE /* ToadNoteUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8DD470C92CF7388D00085EFE /* ToadNote */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8DD4719A2CF894DA00085EFE /* Exceptions for "ToadNote" folder in "ToadNoteTests" target */,
+				8DD4719B2CF894DA00085EFE /* Exceptions for "ToadNote" folder in "ToadNoteUITests" target */,
+			);
 			path = ToadNote;
 			sourceTree = "<group>";
 		};
@@ -52,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD471C82CF8ABF000085EFE /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +104,7 @@
 				8DD470C92CF7388D00085EFE /* ToadNote */,
 				8DD470DB2CF7388E00085EFE /* ToadNoteTests */,
 				8DD470E52CF7388E00085EFE /* ToadNoteUITests */,
+				8DD471C62CF8ABF000085EFE /* Frameworks */,
 				8DD470C82CF7388D00085EFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +117,13 @@
 				8DD470E22CF7388E00085EFE /* ToadNoteUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8DD471C62CF8ABF000085EFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +146,7 @@
 			);
 			name = ToadNote;
 			packageProductDependencies = (
+				8DD471C72CF8ABF000085EFE /* SQLite */,
 			);
 			productName = ToadNote;
 			productReference = 8DD470C72CF7388D00085EFE /* ToadNote.app */;
@@ -195,6 +230,9 @@
 			);
 			mainGroup = 8DD470BE2CF7388D00085EFE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8DD471C52CF8AB4700085EFE /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8DD470C82CF7388D00085EFE /* Products */;
 			projectDirPath = "";
@@ -549,6 +587,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DD471C52CF8AB4700085EFE /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DD471C72CF8ABF000085EFE /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DD471C52CF8AB4700085EFE /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8DD470BF2CF7388D00085EFE /* Project object */;
 }

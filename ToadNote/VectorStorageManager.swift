@@ -65,6 +65,7 @@ class VectorStorageManager {
                 vectorDataColumn <- vectorStr,
                 noteIdColumn <- note.id.uuidString,
                 updatedAtColumn <- Expression<Double>(value: String(timestamp))
+                
             ))
         }
     }

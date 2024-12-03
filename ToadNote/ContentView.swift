@@ -6,16 +6,21 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct ContentView: View {
-    @State private var selectedItem: String? = "笔记"
-    @State private var searchText: String = ""
+    @EnvironmentObject var sidebarViewModel: SidebarViewModel
+    @Environment(\.managedObjectContext) private var context
     
     var body: some View {
         NavigationSplitView {
-            SidebarView(selectedItem: $selectedItem)
+            SidebarView(viewModel: sidebarViewModel)
         } content: {
-            ContentListView(searchText: $searchText)
+            ContentListView(
+                searchText: .constant(""),
+                context: context
+            )
+            .environmentObject(sidebarViewModel)
         } detail: {
             NoteDetailView()
         }

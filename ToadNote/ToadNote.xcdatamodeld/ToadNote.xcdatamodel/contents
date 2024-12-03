@@ -17,8 +17,8 @@
         <attribute name="parentFolderId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="updatedAt" attributeType="Date" usesScalarValueType="NO"/>
         <relationship name="notes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ContentBlock"/>
-        <relationship name="parentFolder" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Folder" inverseName="subFolders" inverseEntity="Folder"/>
-        <relationship name="subFolders" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Folder" inverseName="parentFolder" inverseEntity="Folder"/>
+        <relationship name="parentFolder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Folder" inverseName="subFolders" inverseEntity="Folder"/>
+        <relationship name="subFolders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Folder" inverseName="parentFolder" inverseEntity="Folder"/>
     </entity>
     <entity name="Note" representedClassName="ToadNote.Note" syncable="YES">
         <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>

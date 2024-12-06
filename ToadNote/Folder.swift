@@ -8,6 +8,7 @@ public class Folder: NSManagedObject {
     @NSManaged public var name: String
     @NSManaged public var createdAt: Date
     @NSManaged public var updatedAt: Date
+    @NSManaged public var  parentFolderId: UUID?
     
     // MARK: - 关系
     @NSManaged public var notes: Set<Note>

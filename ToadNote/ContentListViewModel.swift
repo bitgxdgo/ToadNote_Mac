@@ -14,7 +14,7 @@ class ContentListViewModel: ObservableObject {
         }
     }
     
-    private var selectedFolder: Folder?
+    @Published var selectedFolder: Folder?
     private var cancellables = Set<AnyCancellable>()
     
     init(context: NSManagedObjectContext) {
@@ -74,5 +74,17 @@ class ContentListViewModel: ObservableObject {
         } catch {
             self.error = error
         }
+    }
+    
+    func hasNotes(in folder: Folder) -> Bool {
+        if !folder.notes.isEmpty {
+            return true
+        }
+        for subFolder in folder.subFolders {
+            if hasNotes(in: subFolder) {
+                return true
+            }
+        }
+        return false
     }
 }
